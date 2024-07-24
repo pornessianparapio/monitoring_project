@@ -17,7 +17,6 @@ marshmallow==3.21.3
 packaging==24.1
 PyJWT==2.8.0
 pytz==2024.1
-pywin32==306
 six==1.16.0
 SQLAlchemy==2.0.31
 typing_extensions==4.12.2
