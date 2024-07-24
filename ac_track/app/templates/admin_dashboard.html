@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard.css') }}">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">MyApp</div>
+        <div class="dashboard">
+            <h2>Admin Dashboard</h2>
+            <button id="startMonitoring"><i class="fas fa-play"></i> Start Monitoring</button>
+            <button id="stopMonitoring"><i class="fas fa-stop"></i> Stop Monitoring</button>
+            <button id="logout"><i class="fas fa-sign-out-alt"></i> Log Out</button>
+            <div id="feedback" class="feedback"></div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+</body>
+</html>

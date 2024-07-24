@@ -1,0 +1,10 @@
+flask
+flask_sqlalchemy
+flask_restful
+flask_jwt_extended
+werkzeug
+marshmallow
+flask-migrate
+pywin32
+flask-login
+web-browser
