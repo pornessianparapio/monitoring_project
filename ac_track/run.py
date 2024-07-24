@@ -8,9 +8,9 @@ migrate = Migrate(app, db)
 from app.routes import auth_bp
 app.register_blueprint(auth_bp, url_prefix='/')
 
-url = 'http://127.0.0.1:5000/login'
-
-webbrowser.open_new_tab(url)
+# url = 'http://127.0.0.1:5000/login'
+#
+# webbrowser.open_new_tab(url)
 
 
 
