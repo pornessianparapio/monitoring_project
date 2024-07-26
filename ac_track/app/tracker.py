@@ -1,5 +1,5 @@
 import time
-import win32gui
+# import win32gui
 from threading import Thread
 from datetime import datetime
 from sqlalchemy.orm import scoped_session, sessionmaker
@@ -12,8 +12,10 @@ tracking = False
 current_activity = None
 
 def get_active_window_title():
-    hwnd = win32gui.GetForegroundWindow()
-    return win32gui.GetWindowText(hwnd)
+    meow = 'meowmeowmeowmeowmeowmeow'
+    return  meow
+    # hwnd = win32gui.GetForegroundWindow()
+    # return win32gui.GetWindowText(hwnd)
 
 def track_activity(user_id):
     global tracking, current_activity
